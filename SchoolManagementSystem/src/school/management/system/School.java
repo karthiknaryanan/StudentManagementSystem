@@ -46,6 +46,7 @@ public class School {
 
 	public static void updateMoneySpent(int MoneySpent) {
 		totalMoneySpent = totalMoneyReceived - MoneySpent;
+		System.out.println("");
 	}
 
 }
